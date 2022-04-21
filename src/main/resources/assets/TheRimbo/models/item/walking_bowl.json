@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "the_rimbo:item/walking_bowl"
+    "layer0": "therimbo:item/walking_bowl"
   }
 }

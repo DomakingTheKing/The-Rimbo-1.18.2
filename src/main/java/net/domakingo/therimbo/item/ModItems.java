@@ -1,6 +1,6 @@
-package net.domakingo.the_rimbo.item;
+package net.domakingo.therimbo.item;
 
-import net.domakingo.the_rimbo.TheRimbo;
+import net.domakingo.therimbo.TheRimbo;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
