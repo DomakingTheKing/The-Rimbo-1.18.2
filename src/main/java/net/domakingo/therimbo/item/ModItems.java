@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TheRimbo.MOD_ID);
 
     public static final RegistryObject<Item> WALKINGBOWL = ITEMS.register("walking_bowl",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THERIMBO_TAB)));
 
 
 
