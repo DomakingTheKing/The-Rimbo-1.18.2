@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B#",
+    "/ /",
+    "R R"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "B": {
+      "item": "minecraft:bowl"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "R": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "therimbo:walking_bowl",
+    "count": 1
+  }
+}

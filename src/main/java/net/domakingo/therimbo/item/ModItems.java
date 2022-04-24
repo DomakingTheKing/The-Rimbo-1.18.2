@@ -1,6 +1,7 @@
 package net.domakingo.therimbo.item;
 
 import net.domakingo.therimbo.TheRimbo;
+import net.minecraft.client.renderer.item.ItemProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -13,7 +14,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, TheRimbo.MOD_ID);
 
     public static final RegistryObject<Item> WALKINGBOWL = ITEMS.register("walking_bowl",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THERIMBO_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THERIMBO_TAB).stacksTo(1)));
 
 
 

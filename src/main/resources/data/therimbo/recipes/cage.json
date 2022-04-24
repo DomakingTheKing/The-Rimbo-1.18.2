@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#I#",
+    "I I",
+    "___"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "_": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "therimbo:cage",
+    "count": 1
+  }
+}
