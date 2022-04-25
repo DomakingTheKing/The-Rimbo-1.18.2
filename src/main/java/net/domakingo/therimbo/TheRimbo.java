@@ -36,6 +36,7 @@ public class TheRimbo {
 
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.CAGE.get(), RenderType.cutout());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CLEANER.get(), RenderType.translucent());
     }
 
 

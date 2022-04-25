@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/#",
+    "GWG",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "minecraft:planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "W": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "therimbo:cleaner",
+    "count": 1
+  }
+}

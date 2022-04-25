@@ -21,14 +21,20 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TheRimbo.MOD_ID);
 
 
-public static final RegistryObject<Block> CAGE = registerBlock("cage",
-        () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                .strength(4f)), ModCreativeModeTab.THERIMBO_TAB);
+    public static final RegistryObject<Block> CAGE = registerBlock("cage",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                 .strength(4f)), ModCreativeModeTab.THERIMBO_TAB);
 
 
     public static final RegistryObject<Block> TANQUITE_ORE = registerBlock("tanquite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(3.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THERIMBO_TAB);
+
+
+    public static final RegistryObject<Block> CLEANER = registerBlock("cleaner",
+            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
+                    .strength(3.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THERIMBO_TAB);
+
 
 
 
