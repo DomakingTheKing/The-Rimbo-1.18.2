@@ -23,7 +23,13 @@ public class ModBlocks {
 
 public static final RegistryObject<Block> CAGE = registerBlock("cage",
         () -> new Block(BlockBehaviour.Properties.of(Material.WOOD)
-                .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.THERIMBO_TAB);
+                .strength(4f)), ModCreativeModeTab.THERIMBO_TAB);
+
+
+    public static final RegistryObject<Block> TANQUITE_ORE = registerBlock("tanquite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3.5f).requiresCorrectToolForDrops()), ModCreativeModeTab.THERIMBO_TAB);
+
 
 
 

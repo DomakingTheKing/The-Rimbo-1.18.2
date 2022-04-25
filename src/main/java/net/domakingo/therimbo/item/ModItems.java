@@ -16,6 +16,9 @@ public class ModItems {
     public static final RegistryObject<Item> WALKINGBOWL = ITEMS.register("walking_bowl",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THERIMBO_TAB).stacksTo(1)));
 
+    public static final RegistryObject<Item> TANQUITE = ITEMS.register("tanquite",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.THERIMBO_TAB)));
+
 
 
 

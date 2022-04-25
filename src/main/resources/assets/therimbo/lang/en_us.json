@@ -1,9 +1,11 @@
 {
   "item.therimbo.walking_bowl": "Walking Bowl",
+  "item.therimbo.tanquite": "Tanquite",
 
 
 
   "block.therimbo.cage": "Cage",
+  "block.therimbo.tanquite_ore": "Tanquite Ore",
 
   "itemGroup.therimbotab": "The Rimbo Mod"
 }
